@@ -1,14 +1,14 @@
-num = int(input('digite um número interio:'))
-print('''Escolha uma das bases a seguir:
-[ 1 ] Binário
+num = int(input('Type an integer: '))
+print('''Choose one of the options bellow:
+[ 1 ] Binary
 [ 2 ] hexadecimal
 [ 3 ] octal''')
-op = int(input('Opção escolhida:'))
+op = int(input('Chosen option:'))
 if op == 1:
-    print('o número digitado, em binário, é {}'.format(bin(num)[2:]))
+    print('The typed number in binary is {}'.format(bin(num)[2:]))
 elif op == 2:
-    print('o número digitado, em Hexadecimal, é {}'.format(hex(num)[2:]))
+    print('The typed number in hexadecimal is {}'.format(hex(num)[2:]))
 elif op == 3:
-    print('o número digitado, em octal, é {}'.format(oct(num)[2:]))
+    print('The typed number in octal is {}'.format(oct(num)[2:]))
 else:
-    print('Operação inválida!')
+    print('invalid option!')
